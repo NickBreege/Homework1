@@ -8,12 +8,13 @@ public class Homework1 {
 
     public static void ex1() {
         String name = "     ПЕтРов Олег Иванович     ";
-        if (name.contains("ова ")) {
-            System.out.println("Уважаемая " + name.trim().toUpperCase());
-        } else if (name.contains("ов ")) {
-            System.out.println("Уважаемый " + name.trim().toUpperCase());
+        String upperCase = name.trim().toUpperCase();
+        if (upperCase.contains("ОВА ")) {
+            System.out.println("Уважаемая " + upperCase);
+        } else if (upperCase.contains("ОВ ")) {
+            System.out.println("Уважаемый " + upperCase);
         } else {
-            System.out.println("Неизвестное лицо " + name.trim().toUpperCase());
+            System.out.println("Неизвестное лицо " + upperCase);
         }
     }
 
@@ -68,32 +69,35 @@ public class Homework1 {
         long expenseNeck = neckPriceMore500 * 6988;                                        //расход шейки   2_089_412
         long totalExpense = expenseSausage + expenseHam + expenseNeck + 1_000_000;         //ОБЩИЙ РАСХОД:  6_237_937
 
-        long profitBeforeTax = totalProfit - totalExpense;                    //общая прибыль до налогов    1_834_913
-        long profitAfterTax = 0;                       //прибыль(часть прибыли), которая ещё не прошла через налоговую
+        double profitBeforeTax = totalProfit - totalExpense;                    //общая прибыль до налогов    1_834_913
+        double MoneyWithoutTax = 0;                       //прибыль(часть прибыли), которая ещё не прошла через налоговую
         //ВОТ ТУТ НЕ ПОНЯЛ, ПОЧЕМУ tax1 и tax2 МОЖНО НЕ ПРИСВАИВАТЬ 0, а tax3 ОБЯЗАТЕЛЬНО ПРОСИТ ПРИСВОИТЬ НОЛЬ
+        //Потому что tax1, tax2 будут заполнены в любом случае, а tax3 - нет (если в третьем блоке if - else
+        //будет прописано else {tax3 = "любое число"}, то инициализировать tax3 необязательно)
         double tax1, tax2, tax3 = 0;
         if (profitBeforeTax >= 1_000_000) {
-            tax1 = (double) 1_000_000 / 100 * 8;
-            profitAfterTax = profitBeforeTax - 1_000_000;
+            tax1 = (double) 1_000_000 * 0.08;
+            MoneyWithoutTax = profitBeforeTax - 1_000_000;
         } else {
-            tax1 = (double) profitBeforeTax / 100 * 8;
+            tax1 = profitBeforeTax * 0.08;
         }
 
-        if (profitAfterTax > 1_000_000) {
-            tax2 = (double) 1_000_000 / 100 * 10;
-            profitAfterTax = profitAfterTax - 1_000_000;
+        if (MoneyWithoutTax > 1_000_000) {
+            tax2 = (double) 1_000_000 * 0.1;
+            MoneyWithoutTax = MoneyWithoutTax - 1_000_000;
         } else {
-            tax2 = (double) profitAfterTax / 100 * 10;
-            profitAfterTax = 0L;
+            tax2 = MoneyWithoutTax * 0.1;
+            MoneyWithoutTax = 0L;
         }
 
-        if (profitAfterTax > 0) {
-            tax3 = (double) profitAfterTax / 100 * 13;
+        if (MoneyWithoutTax > 0) {
+            tax3 = MoneyWithoutTax * 0.13;
         }
 
         double allTax = tax1 + tax2 + tax3;
+        double profitAfterTax = profitBeforeTax - allTax;
         System.out.println("Прибыль до налогов: " + profitBeforeTax);
         System.out.println("Общая сумма налогов равна: " + allTax);
-        System.out.println("Прибыль после налогов " + (profitBeforeTax - allTax));
+        System.out.println("Прибыль после налогов " + profitAfterTax);
     }
 }
