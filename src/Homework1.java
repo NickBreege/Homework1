@@ -69,8 +69,8 @@ public class Homework1 {
         long totalExpense = expenseSausage + expenseHam + expenseNeck + 1_000_000;         //ОБЩИЙ РАСХОД:  6_237_937
 
         long profitBeforeTax = totalProfit - totalExpense;                    //общая прибыль до налогов    1_834_913
-        long profitAfterTax = 0;                         //прибыль(часть прибыли), которая ещё не прошла через налоговую
-        //ВОТ ТУТ НЕ ПОНЯЛ, ПОЧЕМУ tax1 и tax2 МОЖНО НЕ ПРИСВАИВАТЬ 0, а tax3 ОБЯЗАТЕЛЬНО ПРОСИТЬ ПРИСВОИТЬ НОЛЬ
+        long profitAfterTax = 0;                       //прибыль(часть прибыли), которая ещё не прошла через налоговую
+        //ВОТ ТУТ НЕ ПОНЯЛ, ПОЧЕМУ tax1 и tax2 МОЖНО НЕ ПРИСВАИВАТЬ 0, а tax3 ОБЯЗАТЕЛЬНО ПРОСИТ ПРИСВОИТЬ НОЛЬ
         double tax1, tax2, tax3 = 0;
         if (profitBeforeTax >= 1_000_000) {
             tax1 = (double) 1_000_000 / 100 * 8;
