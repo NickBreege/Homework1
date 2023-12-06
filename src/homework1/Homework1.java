@@ -1,3 +1,5 @@
+package homework1;
+
 public class Homework1 {
     public static void main(String[] args) {
         ex1();
@@ -41,9 +43,9 @@ public class Homework1 {
 
     public static void ex3() {
         String simply = "this is simply. This is my favorite song.";
-        String replace = simply.replace("this is", "those are").
-                replace("This is", "Those are");
-        System.out.println(replace.indexOf("o", 3));
+        String replace = simply.replace("this is", "those are")
+                        .replace("This is", "Those are");
+        System.out.println(replace.indexOf("o", replace.indexOf("o") + 1));
     }
 
     public static void ex4() {
@@ -70,28 +72,28 @@ public class Homework1 {
         long totalExpense = expenseSausage + expenseHam + expenseNeck + 1_000_000;         //ОБЩИЙ РАСХОД:  6_237_937
 
         double profitBeforeTax = totalProfit - totalExpense;                    //общая прибыль до налогов    1_834_913
-        double MoneyWithoutTax = 0;                       //прибыль(часть прибыли), которая ещё не прошла через налоговую
+        double moneyWithoutTax = 0;                   //прибыль(часть прибыли), которая ещё не прошла через налоговую
         //ВОТ ТУТ НЕ ПОНЯЛ, ПОЧЕМУ tax1 и tax2 МОЖНО НЕ ПРИСВАИВАТЬ 0, а tax3 ОБЯЗАТЕЛЬНО ПРОСИТ ПРИСВОИТЬ НОЛЬ
         //Потому что tax1, tax2 будут заполнены в любом случае, а tax3 - нет (если в третьем блоке if - else
         //будет прописано else {tax3 = "любое число"}, то инициализировать tax3 необязательно)
         double tax1, tax2, tax3 = 0;
         if (profitBeforeTax >= 1_000_000) {
             tax1 = (double) 1_000_000 * 0.08;
-            MoneyWithoutTax = profitBeforeTax - 1_000_000;
+            moneyWithoutTax = profitBeforeTax - 1_000_000;
         } else {
             tax1 = profitBeforeTax * 0.08;
         }
 
-        if (MoneyWithoutTax > 1_000_000) {
+        if (moneyWithoutTax > 1_000_000) {
             tax2 = (double) 1_000_000 * 0.1;
-            MoneyWithoutTax = MoneyWithoutTax - 1_000_000;
+            moneyWithoutTax = moneyWithoutTax - 1_000_000;
         } else {
-            tax2 = MoneyWithoutTax * 0.1;
-            MoneyWithoutTax = 0L;
+            tax2 = moneyWithoutTax * 0.1;
+            moneyWithoutTax = 0L;
         }
 
-        if (MoneyWithoutTax > 0) {
-            tax3 = MoneyWithoutTax * 0.13;
+        if (moneyWithoutTax > 0) {
+            tax3 = moneyWithoutTax * 0.13;
         }
 
         double allTax = tax1 + tax2 + tax3;
