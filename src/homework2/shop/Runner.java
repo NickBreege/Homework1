@@ -6,10 +6,10 @@ public class Runner {
         Item screwdriver = new Item("отвертка", 50);
         Item note = new Item("тетрадь", 30);
         Item pen = new Item("ручка", 10);
-        Item[] itemForVasiliy = {hummer, screwdriver};
-        Item[] itemForMaryana = {note, pen};
-        Worker vasiliy = new Worker("Василий", 35, 'М', itemForVasiliy);
-        Worker maryana = new Worker("Марьяна", 25, 'Ж', itemForMaryana);
+        Item[] vasiliyItems = {hummer, screwdriver};
+        Item[] maryanaItems = {note, pen};
+        Worker vasiliy = new Worker("Василий", 35, 'М', vasiliyItems);
+        Worker maryana = new Worker("Марьяна", 25, 'Ж', maryanaItems);
         Worker[] workersShop = {vasiliy, maryana};
         Shop shop = new Shop(workersShop);
 

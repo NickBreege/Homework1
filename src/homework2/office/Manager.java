@@ -7,7 +7,6 @@ public class Manager {
         this.nameManager = nameManager;
     }
 
-
     public void scream() {
         System.out.println("Я ничего не успеваю, помогите!");
     }

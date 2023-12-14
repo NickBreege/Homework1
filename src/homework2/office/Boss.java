@@ -1,10 +1,10 @@
 package homework2.office;
 
 public class Boss {
-    String nameBoss;
+    String name;
 
     public Boss(String nameBoss) {
-        this.nameBoss = nameBoss;
+        this.name = nameBoss;
     }
 
     public void hurry(Manager manager) {
