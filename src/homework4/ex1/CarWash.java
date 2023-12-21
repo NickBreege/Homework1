@@ -1,16 +1,16 @@
 package homework4.ex1;
 
 public class CarWash {
-    private int t1 = 4000;
-    private int t2 = 2000;
+    private int tariffBigCar = 4000;
+    private int tariffSmallCar = 2000;
 
     public int wash(Automobile automobile) {
         if (!automobile.isClean() && isTruck(automobile)) {
             automobile.setClean(true);
-            return t1;
+            return tariffBigCar;
         }
         automobile.setClean(true);
-        return t2;
+        return tariffSmallCar;
     }
 
     public int wash(Automobile[] automobiles) {
@@ -18,10 +18,10 @@ public class CarWash {
         for (Automobile automobile : automobiles) {
             if (!automobile.isClean() && isTruck(automobile)) {
                 automobile.setClean(true);
-                sum += t1;
+                sum += tariffBigCar;
             } else {
                 automobile.setClean(true);
-                sum += t2;
+                sum += tariffSmallCar;
             }
         }
         return sum;
