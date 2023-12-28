@@ -12,6 +12,7 @@ public class Runner {
         Bus bus2 = new Bus(12, 3, 2.3, false, 30);
         Bus bus3 = new Bus(12, 3, 2.3, false, 30);
         Bus bus4 = new Bus(12, 3, 2.3, false, 30);
+        //какойто код
 
         CarWash carWash = new CarWash();
         Automobile[] automobiles = {car, car1, car2, car3, bus, bus1, bus2, bus3, bus4};
