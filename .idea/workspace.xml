@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2677f86-291a-41f9-8e18-001c85b5c501" name="Changes" comment="hw4">
-      <change afterPath="$PROJECT_DIR$/src/homework5/ex1/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework5/ex1/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework5/ex1/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework5/ex1/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework5/ex1/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework5/ex1/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework5/ex2/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework5/ex3/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework5/ex3/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework5/ex3/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f2677f86-291a-41f9-8e18-001c85b5c501" name="Changes" comment="hw5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703792281169</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="hw5">
+      <option name="closed" value="true" />
+      <created>1705316319670</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705316319670</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +272,8 @@
     <MESSAGE value="redacted and homework 2" />
     <MESSAGE value="hw3" />
     <MESSAGE value="hw4" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw4" />
+    <MESSAGE value="hw5" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
