@@ -5,10 +5,10 @@ public class Runner {
         Tiger tiger = new Tiger();
         Dog dog = new Dog();
         Bird bird = new Bird();
-
         Zoo<Tiger, Dog, Bird> zoo = new Zoo<>(tiger, dog, bird);
-        zoo.getBird().doSomething();
-        zoo.getDog().doSomething();
-        zoo.getTiger().doSomething();
+
+        zoo.getBird().fly();
+        zoo.getDog().bark();
+        zoo.getTiger().growl();
     }
 }

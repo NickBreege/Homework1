@@ -1,8 +1,7 @@
 package homework5.ex1;
 
 public class Dog extends Animal {
-    @Override
-    public void doSomething() {
+    public void bark() {
         System.out.println("Собака лает");
     }
 }
