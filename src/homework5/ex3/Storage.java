@@ -1,31 +1,32 @@
 package homework5.ex3;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Storage {
-    private ArrayList<Item> items = new ArrayList<>();
+    private List<Item> items = new ArrayList<>();
 
-    public void addItems(ArrayList<Item> listItems) {
+    public void addItems(List<Item> listItems) {
         items.addAll(listItems);
     }
 
-    public void getAllEven() {
+    public List<Item> getAllEven() {
         ArrayList<Item> evenItems = new ArrayList<>();
         for (int i = 0; i < items.size(); i++) {
             if (i % 2 == 0) {
                 evenItems.add(items.get(i));
             }
         }
-        System.out.println(evenItems);
+        return evenItems;
     }
 
-    public void getByIndex(int index) {
+    public Item getByIndex(int index) {
         if (index < 0 || index >= items.size()) {
             throw new RuntimeException("Вы ввели некорректное значение индекса!");
         }
         Item item = items.get(index);
         items.remove(index);
-        System.out.println(item);
+        return item;
     }
 
     public void removeExceptLast() {
@@ -39,7 +40,7 @@ public class Storage {
         }
     }
 
-    public ArrayList<Item> getItems() {
+    public List<Item> getItems() {
         return items;
     }
 }

@@ -17,9 +17,11 @@ public class Runner {
         storage.addItems(items);
         System.out.println("Все вещи: " + storage.getItems());
         //получаем чётные(по индексу) вещи
-        storage.getAllEven();
+        List<Item> allEven = storage.getAllEven();
+        System.out.println("Чётные вещи: " + allEven);
         //получаю вещь по индексу([2] - ручка) - вещь должна пропасть из склада
-        storage.getByIndex(2);
+        Item item = storage.getByIndex(2);
+        System.out.println(item);
         //проверяю
         System.out.println("Все вещи: " + storage.getItems());
         //удаляю все вещи, кроме последней

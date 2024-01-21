@@ -11,9 +11,15 @@ public class Runner {
         ArrayList<Integer> list3 = new ArrayList<>(list1);
         //добавляю в третий лист все элементы из второго листа
         list3.addAll(list2);
+
         //удаляю третий ЭЛЕМЕНТ, а не элемент под индексом 3
         list3.remove(2);
-        //вывожу индекс числа 10
-        System.out.println(list3.indexOf(10));
+
+        //вывожу индекс числа 10 (выводит не объект, а цифру 10)
+//        System.out.println(list3.indexOf(10));
+
+        //выводит ОБЪЕКТ под индексом, а не примитив под индексом
+        int index = list3.indexOf(Integer.valueOf(10));
+        System.out.println(index);
     }
 }
