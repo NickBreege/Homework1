@@ -4,14 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2677f86-291a-41f9-8e18-001c85b5c501" name="Changes" comment="hw5">
+    <list default="true" id="f2677f86-291a-41f9-8e18-001c85b5c501" name="Changes" comment="hw5 redacted">
+      <change afterPath="$PROJECT_DIR$/src/homework6/ex1/FlightNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework6/ex1/LuggageSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework6/ex1/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework6/ex1/Suitcase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework6/ex1/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework6/ex2/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework6/ex2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework6/ex3/Detail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework6/ex3/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex1/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex1/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex2/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex2/Apricot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex2/Growable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex3/Chamomile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex3/Divinationable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex3/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex3/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex4/Burnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex4/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex4/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex4/Uranium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex5/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex5/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex5/Ruler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework7/ex5/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework5/ex1/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework5/ex1/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework5/ex1/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework5/ex1/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework5/ex1/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework5/ex1/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework5/ex2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework5/ex2/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework5/ex3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework5/ex3/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework5/ex3/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework5/ex3/Storage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -42,10 +65,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Runner.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.homework4.ex1.Runner.executor": "Run",
     "Application.homework5.ex1.Runner.executor": "Run",
     "Application.homework5.ex1.test.Runner.executor": "Run",
     "Application.homework5.ex3.Runner.executor": "Run",
+    "Application.homework6.ex1.Runner.executor": "Debug",
+    "Application.homework6.ex2.Runner.executor": "Run",
+    "Application.homework6.ex3.Runner.executor": "Run",
+    "Application.homework7.ex1.Runner.executor": "Run",
+    "Application.homework7.ex3.Runner.executor": "Run",
+    "Application.homework7.ex4.Runner.executor": "Run",
+    "Application.homework7.ex5.Runner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,13 +94,13 @@
       <recent name="C:\java projects\Homework\src\Homework2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework5.ex3.Runner">
+  <component name="RunManager" selected="Application.homework7.ex1.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework5.ex2.Runner" />
+      <option name="MAIN_CLASS_NAME" value="homework7.ex2.Runner" />
       <module name="Homework1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework5.ex2.*" />
+          <option name="PATTERN" value="homework7.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework4.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework4.ex1.Runner" />
+    <configuration name="homework7.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework7.ex1.Runner" />
       <module name="Homework1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework4.ex1.*" />
+          <option name="PATTERN" value="homework7.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework5.ex1.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework5.ex1.Runner" />
+    <configuration name="homework7.ex3.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework7.ex3.Runner" />
       <module name="Homework1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework5.ex1.*" />
+          <option name="PATTERN" value="homework7.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework5.ex1.test.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework5.ex1.test.Runner" />
+    <configuration name="homework7.ex4.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework7.ex4.Runner" />
       <module name="Homework1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework5.ex1.test.*" />
+          <option name="PATTERN" value="homework7.ex4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework5.ex3.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework5.ex3.Runner" />
+    <configuration name="homework7.ex5.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework7.ex5.Runner" />
       <module name="Homework1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework5.ex3.*" />
+          <option name="PATTERN" value="homework7.ex5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.homework5.ex3.Runner" />
+        <item itemvalue="Application.homework7.ex1.Runner" />
+        <item itemvalue="Application.homework7.ex5.Runner" />
+        <item itemvalue="Application.homework7.ex4.Runner" />
+        <item itemvalue="Application.homework7.ex3.Runner" />
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.homework5.ex1.Runner" />
-        <item itemvalue="Application.homework5.ex1.test.Runner" />
-        <item itemvalue="Application.homework4.ex1.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705344571774</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="hw5 redacted">
+      <option name="closed" value="true" />
+      <created>1705851139425</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1705851139425</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +337,8 @@
     <MESSAGE value="hw3" />
     <MESSAGE value="hw4" />
     <MESSAGE value="hw5" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
+    <MESSAGE value="hw5 redacted" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw5 redacted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -311,6 +351,11 @@
           <properties class="java.lang.RuntimeException" package="java.lang" />
           <option name="timeStamp" value="5" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homework6/ex1/Runner.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
