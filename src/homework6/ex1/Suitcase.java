@@ -7,6 +7,11 @@ public class Suitcase {
         this.flightNumber = flightNumber;
     }
 
+    @Override
+    public String toString() {
+        return "№ " + flightNumber;
+    }
+
     public FlightNumbers getFlightNumber() {
         return flightNumber;
     }

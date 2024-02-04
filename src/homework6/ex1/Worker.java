@@ -10,11 +10,7 @@ public class Worker {
     }
 
     public void throwLuggage(Queue<Suitcase> suitcases) {
-        if (!suitcases.isEmpty()) {
-            for (Suitcase suitcase : suitcases) {
-                System.out.println(name + ": Мужики, кидаю чемодан " + suitcase.getFlightNumber());
-            }
-        }
+        System.out.println(name + ": Мужики, кидаю чемодан " + suitcases.poll());
     }
 
     public String getName() {
